@@ -1,0 +1,3 @@
+#!/bin/sh
+
+lsblk -f | awk '/sdb1/ {printf " " $5 }' 

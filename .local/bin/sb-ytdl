@@ -1,0 +1,27 @@
+#!/bin/bash
+
+### FUNCTIONS ###
+
+dmenu_display() { # Message to display in dmenu
+	INPUT=$(printf "${1}" | dmenu)
+}
+
+### MAIN CODE ### 
+
+case $BLOCK_BUTTON in 
+	1)	dmenu_display "Paste the video link."
+		VIDEO_LINK=$INPUT
+		dmenu_display "Video\\nAudio"
+			case $INPUT in 
+				Video) notify-send 'Downloading...'; yt-dlp -f mp4 $VIDEO_LINK &> /dev/null || (notify-send "Oops!" "Bad link or unavailable video." && exit 1)
+			;;
+		Audio) notify-send 'Downloading...'; yt-dlp -x $VIDEO_LINK --audio-format wav &> /dev/null || (notify-send "Oops!" "Bad link or unavailable video." && exit 1)
+			;; 
+		esac
+	[ $? != 1 ] && notify-send "Finished." "Succesfull download."
+	;;
+esac
+
+echo ""
+
+

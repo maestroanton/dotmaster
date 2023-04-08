@@ -1,0 +1,28 @@
+#!/bin/bash
+
+### FUNCTIONS ###
+
+error(){ # Logs to stderr and exits with error status
+	printf "%s\n" "$1" >&2
+	exit 1
+}
+
+### MAIN CODE ###
+
+# Loop through every argument and extract it
+
+for FILE in $@; do
+	FILEINFO=$(file $FILE) 
+	case $FILEINFO in
+		*gzip*) tar --ungzip -xf $FILE ;;
+		*xz*) tar --xz -xf $FILE ;;
+		*bzip2*) tar --bzip2 -xf $FILE ;;
+		*tar*) tar -xf $FILE ;;
+		*rar*) unrar -e $FILE ;;
+		*zip*) unzip $FILE ;;
+		*Z*) tar --uncompress -xf $FILE ;;
+		# *7zr*) SOMEPROGRAM $FILE ;;
+		*) error "I cannot extract this format." ;;
+	esac
+	shift 1 
+done
