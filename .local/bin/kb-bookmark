@@ -1,0 +1,9 @@
+#!/bin/bash
+
+### VARIABLE ### 
+
+BOOKMARKDIR="${HOME}/.local/share/anton/bookmarks"
+
+### MAIN CODE ###
+
+xdotool type $(awk '/https/ {print $1}' ${BOOKMARKDIR} | dmenu -l 25)

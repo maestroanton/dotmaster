@@ -1,0 +1,13 @@
+#!/bin/sh
+
+### VARIABLE ### 
+
+BOOKMARKDIR="${HOME}/.local/share/anton/bookmarks"
+
+### MAIN CODE ###
+
+LINK=$(xclip -o) 
+if grep -q "^${LINK}$" "${BOOKMARKDIR}" ; then
+	notify-send "Error!" "That was already bookmarked!"
+else echo ${LINK} >> ${BOOKMARKDIR} && notify-send "Success!" "${LINK} has been bookmarked."
+fi
