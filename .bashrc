@@ -7,7 +7,7 @@
 
 # Default programs and directories
 EDITOR="nvim"
-FILEMANAGER="ranger"
+FILE_MANAGER="ranger"
 NOTES="/.notes/notes3"
 SU="sudo"
 
@@ -21,8 +21,9 @@ alias SS="${SU} systemctl"
 alias TT="${SU} timedatectl"
 
 # Aliases
-alias r="${FILEMANAGER}"
-alias sr="${SU} ${FILEMANAGER}"
+alias g="git"
+alias r="${FILE_MANAGER}"
+alias sr="${SU} ${FILE_MANAGER}"
 alias ss="${SU} shutdown -h now"
 alias srb="${SU} reboot"
 alias v="${EDITOR}"
