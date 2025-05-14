@@ -9,6 +9,12 @@ syntax on
 call plug#begin("$HOME/.config/nvim/")
 Plug 'vim-airline/vim-airline'
 Plug 'ap/vim-css-color'
+Plug 'jiangmiao/auto-pairs'
+Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdtree'
+Plug 'preservim/tagbar'
+Plug 'derekwyatt/vim-fswitch'
+Plug 'derekwyatt/vim-protodef'
 call plug#end()
 
 " Working settings

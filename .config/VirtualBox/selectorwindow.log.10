@@ -1,0 +1,21 @@
+00:00:00.325978 VirtualBox GUI VM Selector Window 7.1.4 r165100 linux.amd64 (Dec 25 2024 18:38:04) release log
+00:00:00.325979 Log opened 2024-12-30T11:50:20.957506000Z
+00:00:00.325980 Build Type: release
+00:00:00.325981 OS Product: Linux
+00:00:00.325981 OS Release: 6.12.7-arch1-1
+00:00:00.325982 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 27 Dec 2024 14:24:37 +0000
+00:00:00.325996 DMI Product Name: H510M H
+00:00:00.326001 DMI Product Version: Default string
+00:00:00.326003 Firmware type: UEFI
+00:00:00.326128 Secure Boot: Disabled
+00:00:00.326148 Host RAM: 15859MB (15.4GB) total, 13002MB (12.6GB) available
+00:00:00.326150 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.326150 Process ID: 181602
+00:00:00.326150 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.326164 Qt version: 6.8.1
+00:00:00.327981 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.334871 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.927711 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.953946 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 20x45 x 769x829
+00:09:48.532912 GUI: UICommon: Handling aboutToQuit request..
+00:09:49.039547 GUI: UICommon: aboutToQuit request handled!

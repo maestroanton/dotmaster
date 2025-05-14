@@ -1,0 +1,6 @@
+2025/02/24-05:04:45.458 4052 Creating DB /home/anton/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2025/02/24-05:04:45.462 4052 Reusing MANIFEST /home/anton/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/24-05:04:48.073 4053 Level-0 table #5: started
+2025/02/24-05:04:48.076 4053 Level-0 table #5: 10702 bytes OK
+2025/02/24-05:04:48.078 4053 Delete type=0 #3
+2025/02/24-05:04:48.078 4053 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

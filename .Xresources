@@ -26,7 +26,7 @@
 !! DMENU theme
 
 !! mess: 
-dmenu.font:		inconsolata-12;
+dmenu.font:		inconsolata-11;
 dmenu.background: 	#1e1e1e
 dmenu.foreground:	#d4d4dc
 dmenu.selbackground:	#d4d4dc 

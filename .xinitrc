@@ -15,7 +15,7 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 [ -f "$usermodmap" ] && xmodmap "$usermodmap";
 
-# Sets PATH
+# Sets
 export LOCAL="/home/anton/.local"
 export PATH="${PATH}:${LOCAL}/bin"
 
@@ -32,4 +32,4 @@ fi
 xset r rate 300 40
 
 # Initializes cool programs
-xcompmgr -c & redshift -PO 2900; nitrogen --restore; setxkbmap br; exec dwm
+xcompmgr -c & redshift -PO 1800; nitrogen --restore; setxkbmap br; brightnessctl -d intel_backlight s 10%; exec i3

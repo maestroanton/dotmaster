@@ -1,0 +1,613 @@
+04:31:17.487: Using EGL/X11
+04:31:17.487: CPU Name: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+04:31:17.487: CPU Speed: 4099.188MHz
+04:31:17.487: Physical Cores: 6, Logical Cores: 12
+04:31:17.487: Physical Memory: 15859MB Total, 11921MB Free
+04:31:17.487: Kernel Version: Linux 6.13.4-arch1-1
+04:31:17.487: Distribution: "Arch Linux" Unknown
+04:31:17.487: Session Type: tty
+04:31:17.487: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+04:31:17.488: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+04:31:17.488: Portable mode: false
+04:31:17.525: OBS 31.0.1 (linux)
+04:31:17.525: ---------------------------------
+04:31:17.529: ---------------------------------
+04:31:17.529: audio settings reset:
+04:31:17.529: 	samples per sec: 48000
+04:31:17.529: 	speakers:        2
+04:31:17.529: 	max buffering:   960 milliseconds
+04:31:17.529: 	buffering type:  dynamically increasing
+04:31:17.531: ---------------------------------
+04:31:17.531: Initializing OpenGL...
+04:31:17.616: Loading up OpenGL on adapter Mesa NV137
+04:31:17.616: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 24.3.4-arch1.1, shading language 4.30
+04:31:17.644: ---------------------------------
+04:31:17.644: video settings reset:
+04:31:17.644: 	base resolution:   1600x900
+04:31:17.644: 	output resolution: 1280x720
+04:31:17.644: 	downscale filter:  Bicubic
+04:31:17.644: 	fps:               30/1
+04:31:17.644: 	format:            NV12
+04:31:17.644: 	YUV mode:          Rec. 709/Partial
+04:31:17.644: NV12 texture support enabled
+04:31:17.644: P010 texture support not available
+04:31:17.646: Audio monitoring device:
+04:31:17.646: 	name: Default
+04:31:17.646: 	id: default
+04:31:17.646: ---------------------------------
+04:31:17.652: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:31:17.657: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+04:31:17.661: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:31:17.661: Failed to initialize module 'decklink.so'
+04:31:17.783: [pipewire] No capture sources available
+04:31:17.795: v4l2loopback not installed, virtual camera not registered
+04:31:17.846: VAAPI: API version 1.22
+04:31:17.857: FFmpeg VAAPI H264 encoding not supported
+04:31:17.888: FFmpeg VAAPI AV1 encoding not supported
+04:31:17.920: FFmpeg VAAPI HEVC encoding not supported
+04:31:17.958: os_dlopen(/usr/lib/obs-plugins/obs-libfdk.so->/usr/lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+04:31:17.958: 
+04:31:17.966: os_dlopen(/usr/lib/obs-plugins/obs-libfdk.so->/usr/lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+04:31:17.966: 
+04:31:17.966: Module '/usr/lib/obs-plugins/obs-libfdk.so' not loaded
+04:31:17.980: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+04:31:17.980: 
+04:31:17.980: NVENC not supported
+04:31:17.980: Failed to initialize module 'obs-nvenc.so'
+04:31:18.117: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+04:31:18.117: 
+04:31:18.119: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+04:31:18.119: 
+04:31:18.119: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+04:31:18.135: ---------------------------------
+04:31:18.135:   Loaded Modules:
+04:31:18.136:     text-freetype2.so
+04:31:18.136:     rtmp-services.so
+04:31:18.136:     obs-x264.so
+04:31:18.136:     obs-webrtc.so
+04:31:18.136:     obs-vst.so
+04:31:18.136:     obs-transitions.so
+04:31:18.136:     obs-qsv11.so
+04:31:18.136:     obs-outputs.so
+04:31:18.136:     obs-filters.so
+04:31:18.136:     obs-ffmpeg.so
+04:31:18.136:     linux-v4l2.so
+04:31:18.136:     linux-pulseaudio.so
+04:31:18.136:     linux-pipewire.so
+04:31:18.136:     linux-jack.so
+04:31:18.136:     linux-capture.so
+04:31:18.136:     linux-alsa.so
+04:31:18.136:     image-source.so
+04:31:18.136:     frontend-tools.so
+04:31:18.136:     decklink-output-ui.so
+04:31:18.136:     decklink-captions.so
+04:31:18.136: ---------------------------------
+04:31:18.136: ---------------------------------
+04:31:18.136: Available Encoders:
+04:31:18.136:   Video Encoders:
+04:31:18.136: 	- ffmpeg_svt_av1 (SVT-AV1)
+04:31:18.136: 	- ffmpeg_aom_av1 (AOM AV1)
+04:31:18.136: 	- obs_x264 (x264)
+04:31:18.136:   Audio Encoders:
+04:31:18.136: 	- ffmpeg_aac (FFmpeg AAC)
+04:31:18.136: 	- ffmpeg_opus (FFmpeg Opus)
+04:31:18.136: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+04:31:18.136: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+04:31:18.136: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+04:31:18.136: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+04:31:18.136: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+04:31:18.136: ==== Startup complete ===============================================
+04:31:18.192: All scene data cleared
+04:31:18.192: ------------------------------------------------
+04:31:18.198: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+04:31:18.199: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:31:18.199: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+04:31:18.199: [Loaded global audio device]: 'Desktop Audio'
+04:31:18.201: xshm-input: Geometry 1600x900 @ 0,0
+04:31:18.205: pulse-input: Server name: 'pulseaudio 17.0-43-g3e2bb'
+04:31:18.205: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:31:18.205: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+04:31:18.211: Switched to scene 'Scene'
+04:31:18.211: ------------------------------------------------
+04:31:18.211: Loaded scenes:
+04:31:18.211: - scene 'Scene':
+04:31:18.211:     - source: 'Display Capture (XSHM)' (xshm_input_v2)
+04:31:18.211:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+04:31:18.211: ------------------------------------------------
+04:31:27.070: ---------------------------------
+04:31:27.070: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:31:27.070: [x264 encoder: 'simple_video_stream'] settings:
+04:31:27.070: 	rate_control: CBR
+04:31:27.070: 	bitrate:      2500
+04:31:27.070: 	buffer size:  2500
+04:31:27.070: 	crf:          23
+04:31:27.070: 	fps_num:      30
+04:31:27.070: 	fps_den:      1
+04:31:27.070: 	width:        1280
+04:31:27.070: 	height:       720
+04:31:27.070: 	keyint:       250
+04:31:27.070: 
+04:31:27.078: ---------------------------------
+04:31:27.079: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:31:27.079: 
+04:31:27.080: ==== Recording Start ===============================================
+04:31:27.080: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-31-27.mkv'...
+04:31:39.762: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-31-27.mkv' stopped
+04:31:39.762: Output 'simple_file_output': stopping
+04:31:39.762: Output 'simple_file_output': Total frames output: 347
+04:31:39.762: Output 'simple_file_output': Total drawn frames: 380
+04:31:39.762: ==== Recording Stop ================================================
+04:32:01.711: ---------------------------------
+04:32:01.711: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:32:01.711: [x264 encoder: 'simple_video_stream'] settings:
+04:32:01.711: 	rate_control: CBR
+04:32:01.711: 	bitrate:      2500
+04:32:01.711: 	buffer size:  2500
+04:32:01.711: 	crf:          23
+04:32:01.711: 	fps_num:      30
+04:32:01.711: 	fps_den:      1
+04:32:01.711: 	width:        1280
+04:32:01.711: 	height:       720
+04:32:01.711: 	keyint:       250
+04:32:01.711: 
+04:32:01.726: ---------------------------------
+04:32:01.726: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:32:01.726: 
+04:32:01.727: ==== Recording Start ===============================================
+04:32:01.727: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-32-01.mkv'...
+04:32:25.130: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-32-01.mkv' stopped
+04:32:25.130: Output 'simple_file_output': stopping
+04:32:25.130: Output 'simple_file_output': Total frames output: 669
+04:32:25.130: Output 'simple_file_output': Total drawn frames: 702
+04:32:25.130: ==== Recording Stop ================================================
+04:33:21.877: ---------------------------------
+04:33:21.877: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:33:21.877: [x264 encoder: 'simple_video_stream'] settings:
+04:33:21.877: 	rate_control: CBR
+04:33:21.877: 	bitrate:      2500
+04:33:21.877: 	buffer size:  2500
+04:33:21.877: 	crf:          23
+04:33:21.877: 	fps_num:      30
+04:33:21.877: 	fps_den:      1
+04:33:21.877: 	width:        1280
+04:33:21.877: 	height:       720
+04:33:21.877: 	keyint:       250
+04:33:21.877: 
+04:33:21.888: ---------------------------------
+04:33:21.888: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:33:21.888: 
+04:33:21.889: ==== Recording Start ===============================================
+04:33:21.889: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-33-21.mkv'...
+04:33:32.154: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-33-21.mkv' stopped
+04:33:32.154: Output 'simple_file_output': stopping
+04:33:32.154: Output 'simple_file_output': Total frames output: 275
+04:33:32.154: Output 'simple_file_output': Total drawn frames: 308
+04:33:32.155: ==== Recording Stop ================================================
+04:33:52.636: ---------------------------------
+04:33:52.636: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:33:52.636: [x264 encoder: 'simple_video_stream'] settings:
+04:33:52.636: 	rate_control: CBR
+04:33:52.636: 	bitrate:      2500
+04:33:52.636: 	buffer size:  2500
+04:33:52.636: 	crf:          23
+04:33:52.636: 	fps_num:      30
+04:33:52.636: 	fps_den:      1
+04:33:52.636: 	width:        1280
+04:33:52.636: 	height:       720
+04:33:52.636: 	keyint:       250
+04:33:52.636: 
+04:33:52.651: ---------------------------------
+04:33:52.651: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:33:52.651: 
+04:33:52.652: ==== Recording Start ===============================================
+04:33:52.652: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-33-52.mkv'...
+04:34:15.233: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-33-52.mkv' stopped
+04:34:15.233: Output 'simple_file_output': stopping
+04:34:15.233: Output 'simple_file_output': Total frames output: 644
+04:34:15.233: Output 'simple_file_output': Total drawn frames: 677
+04:34:15.233: ==== Recording Stop ================================================
+04:34:50.239: ---------------------------------
+04:34:50.239: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:34:50.239: [x264 encoder: 'simple_video_stream'] settings:
+04:34:50.239: 	rate_control: CBR
+04:34:50.239: 	bitrate:      2500
+04:34:50.239: 	buffer size:  2500
+04:34:50.239: 	crf:          23
+04:34:50.239: 	fps_num:      30
+04:34:50.239: 	fps_den:      1
+04:34:50.239: 	width:        1280
+04:34:50.239: 	height:       720
+04:34:50.239: 	keyint:       250
+04:34:50.239: 
+04:34:50.243: ---------------------------------
+04:34:50.244: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:34:50.244: 
+04:34:50.244: ==== Recording Start ===============================================
+04:34:50.244: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-34-50.mkv'...
+04:35:00.288: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-34-50.mkv' stopped
+04:35:00.288: Output 'simple_file_output': stopping
+04:35:00.288: Output 'simple_file_output': Total frames output: 269
+04:35:00.288: Output 'simple_file_output': Total drawn frames: 302
+04:35:00.288: ==== Recording Stop ================================================
+04:35:09.884: ---------------------------------
+04:35:09.884: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:35:09.884: [x264 encoder: 'simple_video_stream'] settings:
+04:35:09.884: 	rate_control: CBR
+04:35:09.884: 	bitrate:      2500
+04:35:09.884: 	buffer size:  2500
+04:35:09.884: 	crf:          23
+04:35:09.884: 	fps_num:      30
+04:35:09.884: 	fps_den:      1
+04:35:09.884: 	width:        1280
+04:35:09.884: 	height:       720
+04:35:09.884: 	keyint:       250
+04:35:09.884: 
+04:35:09.898: ---------------------------------
+04:35:09.898: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:35:09.898: 
+04:35:09.899: ==== Recording Start ===============================================
+04:35:09.899: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-35-09.mkv'...
+04:35:42.269: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-35-09.mkv' stopped
+04:35:42.269: Output 'simple_file_output': stopping
+04:35:42.269: Output 'simple_file_output': Total frames output: 938
+04:35:42.269: Output 'simple_file_output': Total drawn frames: 971
+04:35:42.269: ==== Recording Stop ================================================
+04:37:45.421: ---------------------------------
+04:37:45.421: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:37:45.421: [x264 encoder: 'simple_video_stream'] settings:
+04:37:45.421: 	rate_control: CBR
+04:37:45.421: 	bitrate:      2500
+04:37:45.421: 	buffer size:  2500
+04:37:45.421: 	crf:          23
+04:37:45.421: 	fps_num:      30
+04:37:45.421: 	fps_den:      1
+04:37:45.421: 	width:        1280
+04:37:45.421: 	height:       720
+04:37:45.421: 	keyint:       250
+04:37:45.421: 
+04:37:45.436: ---------------------------------
+04:37:45.436: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:37:45.436: 
+04:37:45.437: ==== Recording Start ===============================================
+04:37:45.437: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-37-45.mkv'...
+04:50:27.369: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-37-45.mkv' stopped
+04:50:27.369: Output 'simple_file_output': stopping
+04:50:27.369: Output 'simple_file_output': Total frames output: 22825
+04:50:27.369: Output 'simple_file_output': Total drawn frames: 22858
+04:50:27.370: ==== Recording Stop ================================================
+04:51:26.501: ---------------------------------
+04:51:26.501: [x264 encoder: 'simple_video_stream'] preset: veryfast
+04:51:26.501: [x264 encoder: 'simple_video_stream'] settings:
+04:51:26.501: 	rate_control: CBR
+04:51:26.501: 	bitrate:      2500
+04:51:26.501: 	buffer size:  2500
+04:51:26.501: 	crf:          23
+04:51:26.501: 	fps_num:      30
+04:51:26.501: 	fps_den:      1
+04:51:26.501: 	width:        1280
+04:51:26.501: 	height:       720
+04:51:26.501: 	keyint:       250
+04:51:26.501: 
+04:51:26.505: ---------------------------------
+04:51:26.505: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+04:51:26.505: 
+04:51:26.505: ==== Recording Start ===============================================
+04:51:26.505: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 04-51-26.mkv'...
+05:00:34.773: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 04-51-26.mkv' stopped
+05:00:34.773: Output 'simple_file_output': stopping
+05:00:34.773: Output 'simple_file_output': Total frames output: 16415
+05:00:34.773: Output 'simple_file_output': Total drawn frames: 16448
+05:00:34.773: ==== Recording Stop ================================================
+05:00:46.385: ---------------------------------
+05:00:46.385: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:00:46.385: [x264 encoder: 'simple_video_stream'] settings:
+05:00:46.385: 	rate_control: CBR
+05:00:46.385: 	bitrate:      2500
+05:00:46.385: 	buffer size:  2500
+05:00:46.385: 	crf:          23
+05:00:46.385: 	fps_num:      30
+05:00:46.385: 	fps_den:      1
+05:00:46.385: 	width:        1280
+05:00:46.385: 	height:       720
+05:00:46.385: 	keyint:       250
+05:00:46.385: 
+05:00:46.400: ---------------------------------
+05:00:46.400: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:00:46.400: 
+05:00:46.401: ==== Recording Start ===============================================
+05:00:46.402: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-00-46.mkv'...
+05:03:22.588: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-00-46.mkv' stopped
+05:03:22.588: Output 'simple_file_output': stopping
+05:03:22.588: Output 'simple_file_output': Total frames output: 4653
+05:03:22.588: Output 'simple_file_output': Total drawn frames: 4686
+05:03:22.589: ==== Recording Stop ================================================
+05:03:32.161: ---------------------------------
+05:03:32.161: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:03:32.161: [x264 encoder: 'simple_video_stream'] settings:
+05:03:32.161: 	rate_control: CBR
+05:03:32.161: 	bitrate:      2500
+05:03:32.161: 	buffer size:  2500
+05:03:32.161: 	crf:          23
+05:03:32.161: 	fps_num:      30
+05:03:32.161: 	fps_den:      1
+05:03:32.161: 	width:        1280
+05:03:32.161: 	height:       720
+05:03:32.161: 	keyint:       250
+05:03:32.161: 
+05:03:32.166: ---------------------------------
+05:03:32.166: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:03:32.166: 
+05:03:32.167: ==== Recording Start ===============================================
+05:03:32.167: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-03-32.mkv'...
+05:13:36.169: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-03-32.mkv' stopped
+05:13:36.169: Output 'simple_file_output': stopping
+05:13:36.169: Output 'simple_file_output': Total frames output: 18087
+05:13:36.169: Output 'simple_file_output': Total drawn frames: 18120
+05:13:36.169: ==== Recording Stop ================================================
+05:14:40.315: ---------------------------------
+05:14:40.315: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:14:40.315: [x264 encoder: 'simple_video_stream'] settings:
+05:14:40.315: 	rate_control: CBR
+05:14:40.315: 	bitrate:      2500
+05:14:40.315: 	buffer size:  2500
+05:14:40.315: 	crf:          23
+05:14:40.315: 	fps_num:      30
+05:14:40.315: 	fps_den:      1
+05:14:40.315: 	width:        1280
+05:14:40.315: 	height:       720
+05:14:40.315: 	keyint:       250
+05:14:40.315: 
+05:14:40.331: ---------------------------------
+05:14:40.331: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:14:40.331: 
+05:14:40.332: ==== Recording Start ===============================================
+05:14:40.332: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-14-40.mkv'...
+05:14:58.138: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-14-40.mkv' stopped
+05:14:58.138: Output 'simple_file_output': stopping
+05:14:58.138: Output 'simple_file_output': Total frames output: 501
+05:14:58.138: Output 'simple_file_output': Total drawn frames: 534
+05:14:58.139: ==== Recording Stop ================================================
+05:15:19.259: ---------------------------------
+05:15:19.259: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:15:19.259: [x264 encoder: 'simple_video_stream'] settings:
+05:15:19.259: 	rate_control: CBR
+05:15:19.259: 	bitrate:      2500
+05:15:19.259: 	buffer size:  2500
+05:15:19.259: 	crf:          23
+05:15:19.259: 	fps_num:      30
+05:15:19.259: 	fps_den:      1
+05:15:19.259: 	width:        1280
+05:15:19.259: 	height:       720
+05:15:19.259: 	keyint:       250
+05:15:19.259: 
+05:15:19.275: ---------------------------------
+05:15:19.275: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:15:19.275: 
+05:15:19.277: ==== Recording Start ===============================================
+05:15:19.277: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-15-19.mkv'...
+05:18:22.968: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-15-19.mkv' stopped
+05:18:22.968: Output 'simple_file_output': stopping
+05:18:22.968: Output 'simple_file_output': Total frames output: 5478
+05:18:22.968: Output 'simple_file_output': Total drawn frames: 5511
+05:18:22.969: ==== Recording Stop ================================================
+05:18:23.646: ---------------------------------
+05:18:23.646: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:18:23.646: [x264 encoder: 'simple_video_stream'] settings:
+05:18:23.646: 	rate_control: CBR
+05:18:23.646: 	bitrate:      2500
+05:18:23.646: 	buffer size:  2500
+05:18:23.646: 	crf:          23
+05:18:23.646: 	fps_num:      30
+05:18:23.646: 	fps_den:      1
+05:18:23.646: 	width:        1280
+05:18:23.646: 	height:       720
+05:18:23.646: 	keyint:       250
+05:18:23.646: 
+05:18:23.651: ---------------------------------
+05:18:23.651: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:18:23.651: 
+05:18:23.652: ==== Recording Start ===============================================
+05:18:23.652: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-18-23.mkv'...
+05:22:17.735: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-18-23.mkv' stopped
+05:22:17.735: Output 'simple_file_output': stopping
+05:22:17.735: Output 'simple_file_output': Total frames output: 6989
+05:22:17.735: Output 'simple_file_output': Total drawn frames: 7022
+05:22:17.736: ==== Recording Stop ================================================
+05:22:38.665: ---------------------------------
+05:22:38.665: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:22:38.665: [x264 encoder: 'simple_video_stream'] settings:
+05:22:38.665: 	rate_control: CBR
+05:22:38.665: 	bitrate:      2500
+05:22:38.665: 	buffer size:  2500
+05:22:38.665: 	crf:          23
+05:22:38.665: 	fps_num:      30
+05:22:38.665: 	fps_den:      1
+05:22:38.665: 	width:        1280
+05:22:38.665: 	height:       720
+05:22:38.665: 	keyint:       250
+05:22:38.665: 
+05:22:38.681: ---------------------------------
+05:22:38.681: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:22:38.681: 
+05:22:38.683: ==== Recording Start ===============================================
+05:22:38.683: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-22-38.mkv'...
+05:33:18.705: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-22-38.mkv' stopped
+05:33:18.705: Output 'simple_file_output': stopping
+05:33:18.705: Output 'simple_file_output': Total frames output: 19167
+05:33:18.705: Output 'simple_file_output': Total drawn frames: 19200
+05:33:18.706: ==== Recording Stop ================================================
+05:33:19.357: ---------------------------------
+05:33:19.358: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:33:19.358: [x264 encoder: 'simple_video_stream'] settings:
+05:33:19.358: 	rate_control: CBR
+05:33:19.358: 	bitrate:      2500
+05:33:19.358: 	buffer size:  2500
+05:33:19.358: 	crf:          23
+05:33:19.358: 	fps_num:      30
+05:33:19.358: 	fps_den:      1
+05:33:19.358: 	width:        1280
+05:33:19.358: 	height:       720
+05:33:19.358: 	keyint:       250
+05:33:19.358: 
+05:33:19.373: ---------------------------------
+05:33:19.373: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:33:19.373: 
+05:33:19.374: ==== Recording Start ===============================================
+05:33:19.374: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-33-19.mkv'...
+05:36:02.168: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-33-19.mkv' stopped
+05:36:02.168: Output 'simple_file_output': stopping
+05:36:02.168: Output 'simple_file_output': Total frames output: 4851
+05:36:02.168: Output 'simple_file_output': Total drawn frames: 4884
+05:36:02.169: ==== Recording Stop ================================================
+05:36:02.999: ---------------------------------
+05:36:02.999: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:36:02.999: [x264 encoder: 'simple_video_stream'] settings:
+05:36:02.999: 	rate_control: CBR
+05:36:02.999: 	bitrate:      2500
+05:36:02.999: 	buffer size:  2500
+05:36:02.999: 	crf:          23
+05:36:02.999: 	fps_num:      30
+05:36:02.999: 	fps_den:      1
+05:36:02.999: 	width:        1280
+05:36:02.999: 	height:       720
+05:36:02.999: 	keyint:       250
+05:36:02.999: 
+05:36:03.011: ---------------------------------
+05:36:03.011: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:36:03.011: 
+05:36:03.012: ==== Recording Start ===============================================
+05:36:03.012: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-36-02.mkv'...
+05:36:55.963: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-36-02.mkv' stopped
+05:36:55.963: Output 'simple_file_output': stopping
+05:36:55.963: Output 'simple_file_output': Total frames output: 1556
+05:36:55.963: Output 'simple_file_output': Total drawn frames: 1589
+05:36:55.964: ==== Recording Stop ================================================
+05:37:05.277: ---------------------------------
+05:37:05.277: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:37:05.277: [x264 encoder: 'simple_video_stream'] settings:
+05:37:05.277: 	rate_control: CBR
+05:37:05.277: 	bitrate:      2500
+05:37:05.277: 	buffer size:  2500
+05:37:05.277: 	crf:          23
+05:37:05.277: 	fps_num:      30
+05:37:05.277: 	fps_den:      1
+05:37:05.277: 	width:        1280
+05:37:05.277: 	height:       720
+05:37:05.277: 	keyint:       250
+05:37:05.277: 
+05:37:05.291: ---------------------------------
+05:37:05.291: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:37:05.291: 
+05:37:05.292: ==== Recording Start ===============================================
+05:37:05.292: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-37-05.mkv'...
+05:37:48.268: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-37-05.mkv' stopped
+05:37:48.268: Output 'simple_file_output': stopping
+05:37:48.268: Output 'simple_file_output': Total frames output: 1256
+05:37:48.268: Output 'simple_file_output': Total drawn frames: 1289
+05:37:48.269: ==== Recording Stop ================================================
+05:37:48.866: ---------------------------------
+05:37:48.866: [x264 encoder: 'simple_video_stream'] preset: veryfast
+05:37:48.866: [x264 encoder: 'simple_video_stream'] settings:
+05:37:48.866: 	rate_control: CBR
+05:37:48.866: 	bitrate:      2500
+05:37:48.866: 	buffer size:  2500
+05:37:48.866: 	crf:          23
+05:37:48.866: 	fps_num:      30
+05:37:48.866: 	fps_den:      1
+05:37:48.866: 	width:        1280
+05:37:48.866: 	height:       720
+05:37:48.866: 	keyint:       250
+05:37:48.866: 
+05:37:48.876: ---------------------------------
+05:37:48.876: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo, track: 1
+05:37:48.876: 
+05:37:48.878: ==== Recording Start ===============================================
+05:37:48.878: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/anton/2025-02-24 05-37-48.mkv'...
+05:39:17.338: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/anton/2025-02-24 05-37-48.mkv' stopped
+05:39:17.338: Output 'simple_file_output': stopping
+05:39:17.338: Output 'simple_file_output': Total frames output: 2621
+05:39:17.338: Output 'simple_file_output': Total drawn frames: 2654
+05:39:17.339: ==== Recording Stop ================================================
+05:42:01.069: ==== Shutting down ==================================================
+05:42:01.091: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+05:42:01.091: pulse-input: Got 569909 packets with 187112628 frames
+05:42:01.092: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+05:42:01.092: pulse-input: Got 434815 packets with 187112848 frames
+05:42:01.123: All scene data cleared
+05:42:01.123: ------------------------------------------------
+05:42:01.224: [Scripting] Total detached callbacks: 0
+05:42:01.224: Freeing OBS context data
+05:42:01.279: == Profiler Results =============================
+05:42:01.279: run_program_init: 854.826 ms
+05:42:01.279:  ┣OBSApp::AppInit: 9.974 ms
+05:42:01.279:  ┃ ┗OBSApp::InitLocale: 0.679 ms
+05:42:01.279:  ┗OBSApp::OBSInit: 797.939 ms
+05:42:01.279:    ┣obs_startup: 0.657 ms
+05:42:01.279:    ┗OBSBasic::OBSInit: 756.132 ms
+05:42:01.279:      ┣OBSBasic::InitBasicConfig: 0.448 ms
+05:42:01.279:      ┣OBSBasic::ResetAudio: 0.119 ms
+05:42:01.280:      ┣OBSBasic::ResetVideo: 116.542 ms
+05:42:01.280:      ┃ ┗obs_init_graphics: 114.865 ms
+05:42:01.280:      ┃   ┗shader compilation: 28.452 ms
+05:42:01.280:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+05:42:01.280:      ┣OBSBasic::InitHotkeys: 0.036 ms
+05:42:01.280:      ┣obs_load_all_modules2: 488.969 ms
+05:42:01.280:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+05:42:01.280:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+05:42:01.280:      ┃ ┣obs_init_module(decklink.so): 0.071 ms
+05:42:01.280:      ┃ ┣obs_init_module(frontend-tools.so): 66.448 ms
+05:42:01.280:      ┃ ┣obs_init_module(image-source.so): 0.007 ms
+05:42:01.280:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+05:42:01.280:      ┃ ┣obs_init_module(linux-capture.so): 0.455 ms
+05:42:01.280:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+05:42:01.280:      ┃ ┣obs_init_module(linux-pipewire.so): 11.609 ms
+05:42:01.280:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+05:42:01.280:      ┃ ┣obs_init_module(linux-v4l2.so): 1.965 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-ffmpeg.so): 77.289 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-filters.so): 0.092 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-nvenc.so): 0.071 ms
+05:42:01.280:      ┃ ┃ ┗nvenc_check: 0.059 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-qsv11.so): 57.418 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-transitions.so): 0.041 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-vst.so): 0.002 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-webrtc.so): 0.003 ms
+05:42:01.280:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+05:42:01.280:      ┃ ┣obs_init_module(rtmp-services.so): 0.717 ms
+05:42:01.280:      ┃ ┗obs_init_module(text-freetype2.so): 0.007 ms
+05:42:01.280:      ┣OBSBasic::InitService: 1.102 ms
+05:42:01.280:      ┣OBSBasic::ResetOutputs: 0.16 ms
+05:42:01.280:      ┣OBSBasic::CreateHotkeys: 0.019 ms
+05:42:01.280:      ┣OBSBasic::InitPrimitives: 0.141 ms
+05:42:01.280:      ┗OBSBasic::Load: 91.094 ms
+05:42:01.280: obs_hotkey_thread(25 ms): min=0.039 ms, median=0.43 ms, max=59.653 ms, 99th percentile=11.028 ms, 99.9704% below 25 ms
+05:42:01.280: audio_thread(Audio): min=0.007 ms, median=1.818 ms, max=35.663 ms, 99th percentile=15.135 ms
+05:42:01.280:  ┗receive_audio: min=0.002 ms, median=1.676 ms, max=35.471 ms, 99th percentile=15.331 ms, 0.849459 calls per parent call
+05:42:01.280:    ┣buffer_audio: min=0.001 ms, median=0.002 ms, max=0.157 ms, 99th percentile=0.005 ms
+05:42:01.280:    ┗do_encode: min=0.01 ms, median=1.669 ms, max=35.463 ms, 99th percentile=15.321 ms
+05:42:01.280:      ┣encode(simple_aac): min=0.01 ms, median=1.65 ms, max=35.455 ms, 99th percentile=15.298 ms
+05:42:01.280:      ┗send_packet: min=0.001 ms, median=0.008 ms, max=9.302 ms, 99th percentile=0.045 ms
+05:42:01.280: obs_graphics_thread(33.3333 ms): min=0.053 ms, median=6.953 ms, max=82.895 ms, 99th percentile=20.811 ms, 99.8861% below 33.333 ms
+05:42:01.280:  ┣tick_sources: min=0 ms, median=4.129 ms, max=80.861 ms, 99th percentile=17.721 ms
+05:42:01.280:  ┣output_frame: min=0.03 ms, median=1.285 ms, max=19.917 ms, 99th percentile=1.667 ms
+05:42:01.280:  ┃ ┣gs_context(video->graphics): min=0.029 ms, median=0.869 ms, max=19.56 ms, 99th percentile=1.212 ms
+05:42:01.280:  ┃ ┃ ┣render_video: min=0.026 ms, median=0.742 ms, max=10.111 ms, 99th percentile=1.054 ms
+05:42:01.280:  ┃ ┃ ┃ ┣render_main_texture: min=0.022 ms, median=0.329 ms, max=3.419 ms, 99th percentile=0.475 ms
+05:42:01.280:  ┃ ┃ ┃ ┣render_output_texture: min=0.018 ms, median=0.084 ms, max=6.323 ms, 99th percentile=0.143 ms, 0.849443 calls per parent call
+05:42:01.280:  ┃ ┃ ┃ ┣render_convert_texture: min=0.029 ms, median=0.119 ms, max=5.899 ms, 99th percentile=0.206 ms, 0.849443 calls per parent call
+05:42:01.280:  ┃ ┃ ┃ ┗stage_output_texture: min=0.034 ms, median=0.198 ms, max=9.569 ms, 99th percentile=0.297 ms, 0.849443 calls per parent call
+05:42:01.280:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.09 ms, max=16.037 ms, 99th percentile=0.132 ms
+05:42:01.280:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=11.009 ms, 99th percentile=0.006 ms, 0.849443 calls per parent call
+05:42:01.280:  ┃ ┗output_video_data: min=0.114 ms, median=0.409 ms, max=2.773 ms, 99th percentile=0.505 ms, 0.849302 calls per parent call
+05:42:01.281:  ┗render_displays: min=0.001 ms, median=1.275 ms, max=20.876 ms, 99th percentile=2.659 ms
+05:42:01.281: video_thread(video): min=0.482 ms, median=1.992 ms, max=14.695 ms, 99th percentile=2.863 ms
+05:42:01.281:  ┗receive_video: min=0.481 ms, median=1.989 ms, max=14.693 ms, 99th percentile=2.86 ms
+05:42:01.281:    ┗do_encode: min=0.481 ms, median=1.988 ms, max=14.691 ms, 99th percentile=2.859 ms
+05:42:01.281:      ┣encode(simple_video_stream): min=0.473 ms, median=1.956 ms, max=7.576 ms, 99th percentile=2.824 ms
+05:42:01.281:      ┗send_packet: min=0.001 ms, median=0.017 ms, max=12.698 ms, 99th percentile=0.063 ms
+05:42:01.281: =================================================
+05:42:01.281: == Profiler Time Between Calls ==================
+05:42:01.281: obs_hotkey_thread(25 ms): min=25.06 ms, median=25.543 ms, max=84.807 ms, 43.9185% within ±2% of 25 ms (0% lower, 56.0815% higher)
+05:42:01.281: obs_graphics_thread(33.3333 ms): min=7.644 ms, median=33.333 ms, max=82.917 ms, 99.7738% within ±2% of 33.333 ms (0.113119% lower, 0.113119% higher)
+05:42:01.281: =================================================
+05:42:01.400: Number of memory leaks: 0

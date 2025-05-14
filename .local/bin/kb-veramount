@@ -1,0 +1,22 @@
+#!/bin/sh
+
+### FUNCTIONS ###
+
+error() { # Displays error and exits 
+	notify-send "$1" "$2" 
+	exit 1
+}
+dmenu_display() { # Message to display in dmenu
+	INPUT=$(rofi -dmenu -password -p "$1")
+}
+
+### MAIN CODE ###
+
+VOLUME_PATH=$(find -name 'cont')
+MOUNT_POINT="${HOME}/Downloads/mnt/"
+
+dmenu_display "Password "
+
+# Mounting the volume 
+
+echo $INPUT | veracrypt -t --non-interactive --stdin $VOLUME_PATH $MOUNT_POINT &>/dev/null && error "Success." "0 exit code." || error "Error!" "Check password and the validity of paths. The device could also be already mounted."

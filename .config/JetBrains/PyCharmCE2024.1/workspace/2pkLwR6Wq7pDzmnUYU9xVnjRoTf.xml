@@ -1,0 +1,186 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/c3.py" />
+              <entry key="line" value="19" />
+            </attributes>
+            <option name="description" value="print" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+            <option name="type" value="DIGIT_9" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="pythonProject" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="3n4qua0g2qnpn" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c1-c2.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="836">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c3.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1452">
+              <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/c4.py">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="477">
+              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Python": {
+      "usageCount": 12,
+      "lastUsed": 1734078085624
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>polyPen</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>polyLine</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/oreilly.py" />
+      <option value="$PROJECT_DIR$/c3.py" />
+      <option value="$PROJECT_DIR$/c4.py" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Python">
+      <summary usageCount="12" lastUsage="1734078085624" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/anton/PycharmProjects/pythonProject}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="pythonProject-history">
+        <shellCommand>
+          <arg value="/bin/bash" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16704546" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.33070302" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33070302" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" weight="0.33070302" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <unified_weights bottom="0.33070302" left="0.16704546" />
+    </layoutV2>
+    <recentWindows>
+      <value>Run</value>
+      <value>Problems View</value>
+      <value>Terminal</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1254" height="198" key="GridCell.Tab.0.bottom" timestamp="1734086876536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1254" height="198" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1734086876536" />
+    <state width="1254" height="198" key="GridCell.Tab.0.center" timestamp="1734086876536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1254" height="198" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1734086876536" />
+    <state width="1254" height="198" key="GridCell.Tab.0.left" timestamp="1734086876536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1254" height="198" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1734086876536" />
+    <state width="1254" height="198" key="GridCell.Tab.0.right" timestamp="1734086876536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1254" height="198" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1734086876536" />
+    <state x="187" y="21" key="SettingsEditor" timestamp="1733474085441">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="21" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1733474085441" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/c1-c2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,130 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Redo">
+      <i c="11" l="1734083550753" />
+    </e>
+    <e n="$SelectAll">
+      <i c="5" l="1733481714831" />
+    </e>
+    <e n="$Undo">
+      <i c="142" l="1734085916378" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1375" l="1734086349195" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="66" l="1734081871374" />
+    </e>
+    <e n="EditorCopy">
+      <i c="29" l="1734084182724" />
+    </e>
+    <e n="EditorCut">
+      <i c="14" l="1734085714649" />
+    </e>
+    <e n="EditorDelete">
+      <i c="592" l="1734086373747" />
+    </e>
+    <e n="EditorDeleteLine">
+      <i c="1" l="1733906249502" />
+    </e>
+    <e n="EditorDown">
+      <i c="743" l="1734086390540" />
+    </e>
+    <e n="EditorEnter">
+      <i c="299" l="1734086375715" />
+    </e>
+    <e n="EditorEscape">
+      <i c="30" l="1734079084336" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1487" l="1734086347388" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="1" l="1733997769117" />
+    </e>
+    <e n="EditorPaste">
+      <i c="71" l="1734085717025" />
+    </e>
+    <e n="EditorRight">
+      <i c="1539" l="1734086356432" />
+    </e>
+    <e n="EditorStartNewLine">
+      <i c="2" l="1733994558802" />
+    </e>
+    <e n="EditorTab">
+      <i c="28" l="1734084186540" />
+    </e>
+    <e n="EditorUp">
+      <i c="608" l="1734086384596" />
+    </e>
+    <e n="FindNext">
+      <i c="1" l="1734084073247" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1733993226553" />
+    </e>
+    <e n="JumpToLastWindow">
+      <i c="1" l="1733390920737" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="3" l="1733993833250" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1733911178997" />
+    </e>
+    <e n="RenameElement">
+      <i c="2" l="1733910189716" />
+    </e>
+    <e n="Run">
+      <i c="202" l="1734086360442" />
+    </e>
+    <e n="SaveAll">
+      <i c="30" l="1734086875475" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1733474076507" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1733474079256" />
+    </e>
+    <e n="Stop">
+      <i c="63" l="1734084977365" />
+    </e>
+    <e n="ToggleBookmark9">
+      <i c="1" l="1733911371516" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1733997496517" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1734084128459" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$ModeAction">
+      <i c="1" l="1734084114178" />
+    </e>
+    <e n="com.intellij.find.SearchTextArea$ShowHistoryAction">
+      <i c="1" l="1734084100930" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="1" l="1734084092010" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="1" l="1734078641710" />
+    </e>
+    <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
+      <i c="1" l="1734084082155" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1733994139959" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1733474058821" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1733305352395" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1734078677635" />
+    </e>
+  </component>
+</application>

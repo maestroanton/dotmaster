@@ -1,0 +1,107 @@
+00:00:00.000119 main     VirtualBox XPCOM Server 7.1.4 r165100 linux.amd64 (Dec 25 2024 18:38:04) release log
+00:00:00.000121 main     Log opened 2024-12-27T11:57:37.567746000Z
+00:00:00.000121 main     Build Type: release
+00:00:00.000123 main     OS Product: Linux
+00:00:00.000123 main     OS Release: 6.12.6-arch1-1
+00:00:00.000124 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 19 Dec 2024 21:29:01 +0000
+00:00:00.000139 main     DMI Product Name: H510M H
+00:00:00.000146 main     DMI Product Version: Default string
+00:00:00.000150 main     Firmware type: UEFI
+00:00:00.000295 main     Secure Boot: Disabled
+00:00:00.000316 main     Host RAM: 15860MB (15.4GB) total, 13591MB (13.2GB) available
+00:00:00.000318 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000319 main     Process ID: 16300
+00:00:00.000319 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001120 main     IPC socket path: /tmp/.vbox-anton-ipc/ipcd
+00:00:00.004943 DCon01   VirtualBox: object creation starts
+00:00:00.004974 DCon01   Home directory: '/home/anton/.config/VirtualBox'
+00:00:00.010177 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f0u1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.010667 DCon01   HostDnsMonitor: initializing
+00:00:00.010791 DCon01   NAT: resolv.conf: nameserver 181.213.132.2
+00:00:00.010794 DCon01   NAT: resolv.conf: nameserver 181.213.132.3
+00:00:00.010796 DCon01   NAT: resolv.conf: nameserver 2804:14d:1:0:181:213:132:2
+00:00:00.010798 DCon01   NAT: resolv.conf: too many nameserver lines, ignoring 2804:14d:1:0:181:213:132:3
+00:00:00.010801 DCon01   HostDnsMonitor: updating information
+00:00:00.010807 DCon01   HostDnsMonitor: old information
+00:00:00.010807 DCon01     no server entries
+00:00:00.010808 DCon01     no domain set
+00:00:00.010809 DCon01     no search string entries
+00:00:00.010809 DCon01   HostDnsMonitor: new information
+00:00:00.010810 DCon01     server 1: 181.213.132.2
+00:00:00.010811 DCon01     server 2: 181.213.132.3
+00:00:00.010812 DCon01     server 3: 2804:14d:1:0:181:213:132:2
+00:00:00.010812 DCon01     domain: home
+00:00:00.010813 DCon01     search string 1: home
+00:00:00.011694 DCon01   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.011762 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.011817 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.012195 DCon01   VirtualBox: object created
+00:00:00.517238 DCon03   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.519079 DCon03   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:00:00.550721 DCon03   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.552489 DCon03   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:00:00.568009 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:00.945528 DCon03   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.947857 DCon03   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:00:08.359295 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:08.829974 DCon02   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:09.022932 DCon02   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:06:29.028622 DCon01   ERROR [COM]: aRC=NS_ERROR_NOT_IMPLEMENTED (0x80004001) aIID={a71e5822-365b-49ba-bd14-c8d616e6740d} aComponent={UnattendedWrap} aText={Failed to open '/home/anton/Win10_22H2_English_x64v1.iso' as ISO FS (VERR_EOF) - Unable to read volume descriptor #0}, preserve=false aResultDetail=-110
+00:06:29.032004 DCon01   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:29.033834 DCon01   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:06:29.035131 DCon01   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:29.037025 DCon01   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.326235 createBase Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.328225 createBase Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.333066 DCon05   Platform architecture set to 'x86'
+00:07:40.333129 DCon05   Platform architecture set to 'x86'
+00:07:40.333135 DCon05   Platform architecture set to 'x86'
+00:07:40.333321 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:40.333342 DCon05   Platform architecture set to 'x86'
+00:07:40.333975 DCon05   Saving settings file "/home/anton/VirtualBox VMs/TJ/TJ.vbox" with version "1.19-linux"
+00:07:40.338856 DCon05   Finished saving settings file "/home/anton/VirtualBox VMs/TJ/TJ.vbox"
+00:07:40.338917 DCon05   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.340733 DCon05   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.341148 DCon05   Platform architecture set to 'x86'
+00:07:40.341878 DCon05   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.343955 DCon05   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.344672 DCon04   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.346607 DCon04   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.346872 DCon05   Saving settings file "/home/anton/VirtualBox VMs/TJ/TJ.vbox" with version "1.19-linux"
+00:07:40.348560 DCon05   Finished saving settings file "/home/anton/VirtualBox VMs/TJ/TJ.vbox"
+00:07:40.361313 DCon05   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.363227 DCon05   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.667020 DCon04   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:40.668855 DCon04   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:07:40.707310 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:40.724243 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:40.725084 DCon04   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:40.794843 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:40.832412 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:40.833029 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:44.148994 DCon01   Launched VM: 873275664 pid: 20085 (0x4e75) frontend: GUI/Qt name: TJ
+00:07:44.181121 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:44.181839 DCon06   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:44.196100 DCon06   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:44.230447 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:44.231064 DCon06   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:44.649191 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'TJ' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:07:44.682242 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:07:44.683064 DCon04   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:07:44.697313 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:07:44.731570 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:44.732095 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:07:57.650376 DCon01   Saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:57.652637 DCon01   Finished saving settings file "/home/anton/.config/VirtualBox/VirtualBox.xml"
+00:09:05.186353 DCon04   Launched VM: 603997088 pid: 20650 (0x50aa) frontend: GUI/Qt name: TJ
+00:09:05.227420 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:09:05.228171 DCon10   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:09:05.243018 DCon10   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:05.277009 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:09:05.277615 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:09:05.687232 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The virtual machine 'TJ' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:09:05.738448 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:09:05.739133 DCon10   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:09:05.754001 DCon10   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:09:05.788184 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0
+00:09:05.788762 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true aResultDetail=0

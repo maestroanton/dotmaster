@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# FUNCTIONS
+
+cleanup() { # Closes any open windows
+	for i in {1..5}; 
+	do
+		xdotool key alt+shift+q
+	done
+}
+
+# MAIN
+
+xdotool key alt+1 && alacritty -e librewolf wait && xdotool key ctrl+shift+p && xdotool key alt+shift+2 

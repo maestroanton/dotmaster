@@ -1,0 +1,18 @@
+# GIMP user context
+
+(tool "gimp-smudge-tool")
+(paint-info "gimp-smudge")
+(foreground
+    (color "R'G'B'A double" 32 "\0\0\0\0\0\0\360\77\0\0\0\0\0\0\360\77\0\0\0\0\0\0\360\77\0\0\0\0\0\0\360\77" 0))
+(background
+    (color "R'G'B'A double" 32 "\0\0\0\300VL\352\77\0\0\0\340\324\343\323\77\0\0\0\0\54\305\317\77\0\0\0\0\0\0\360\77" 0))
+(brush "2. Hardness 100")
+(dynamics "Basic Dynamics")
+(mybrush "100% Opaque")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Cantarell Bold")
+(tool-preset "Virtual core pointer")
+
+# end of user context

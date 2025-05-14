@@ -1,0 +1,6 @@
+# GIMP gimp-handle-transform-tool options
+
+(background
+    (color "R'G'B'A double" 32 "\0\0\0\300VL\352\77\0\0\0\100\325\343\323\77\0\0\0\0\55\305\317\77\0\0\0\0\0\0\360\77" 0))
+
+# end of gimp-handle-transform-tool options

@@ -8,6 +8,7 @@
 # Default programs and directories
 EDITOR="nvim"
 FILE_MANAGER="ranger"
+export TERMINAL="alacritty"
 NOTES="/.notes/notes3"
 SU="sudo"
 
@@ -30,6 +31,7 @@ alias v="${EDITOR}"
 alias sv="${SU} ${EDITOR}"
 alias k="killall"
 alias mk="mkdir -p"
+alias kr="sudo pacman-key --refresh-keys"
 
 # Shortcutting
 alias notes="${EDITOR} "${HOME}${NOTES}""

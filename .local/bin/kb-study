@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# FUNCTIONS
+
+cleanup() { # Closes any open windows
+	for i in {1..5}; 
+	do
+		xdotool key alt+shift+q
+	done
+}
+
+# MAIN
+
+xdotool key alt+5 && cleanup && alacritty -e gnome-pomodoro 
+sleep 1
+xdotool key alt+3 && cleanup && alacritty -e firefox

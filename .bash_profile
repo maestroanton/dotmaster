@@ -1,6 +1,7 @@
 # ~/.bash_profile
 
 # Login shell initialization
-# This file currently just sources bashrc
+
+[ $(tty) = "/dev/tty1" ] && neofetch && startx
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc

@@ -2,7 +2,7 @@
 
 ### VARIABLE ### 
 
-BOOKMARKDIR="${HOME}/.local/share/anton/bookmarks"
+BOOKMARKDIR="${HOME}/Downloads/documents/notes/bookmarks"
 
 ### MAIN CODE ###
 

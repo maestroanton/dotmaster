@@ -1,0 +1,15 @@
+#!/bin/sh
+
+##### MAIN #####
+
+for U in $(find . -maxdepth 1 -type f)
+do
+		if [[ $U != *.sh ]]
+		then
+			mv $U $(date +%s).$(file -b --mime-type $U | cut -d/ -f2)
+			echo $U
+			sleep 1
+		fi
+done
+
+# For U as in one of the files, rename U to the current UNIX time

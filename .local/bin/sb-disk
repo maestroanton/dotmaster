@@ -1,3 +1,5 @@
 #!/bin/sh
 
-lsblk -f | awk '/sdb1/ {printf " " $5 }' 
+lsblk -f | awk '/sda3/ {printf "💿 " $5 }' | xargs echo
+
+# xargs echo to release result as stdout

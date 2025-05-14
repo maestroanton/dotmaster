@@ -1,0 +1,2 @@
+#!/bin/sh
+potctl -1 | awk '{printf "🍅 " $2 " cycle " $4}' | xargs echo

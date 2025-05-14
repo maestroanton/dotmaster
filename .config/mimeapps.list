@@ -1,0 +1,35 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura.desktop;
+image/jpeg=nsxiv-2.desktop;org.nomacs.ImageLounge.desktop;
+image/png=nsxiv.desktop;nsxiv-3.desktop;org.nomacs.ImageLounge.desktop;
+application/x-compressed-tar=userapp-unrar -x-NJRSC2.desktop;userapp-tar -xf-WSSGC2.desktop;
+image/gif=nsxiv.desktop;org.nomacs.ImageLounge.desktop;
+application/zip=userapp-unzip x-SRXGC2.desktop;userapp-unzip -x-ZUSKC2.desktop;userapp-unzip -x-SIIOL2.desktop;
+application/vnd.rar=userapp-unrar x-LGGFC2.desktop;userapp-7z x-IVEX12.desktop;
+application/x-7z-compressed=userapp-7z x-QFTYC2.desktop;userapp-7z x-IVEX12.desktop;
+application/x-shellscript=userapp-sh-7A88E2.desktop;userapp-sh-IDHDS2.desktop;
+image/webp=org.nomacs.ImageLounge.desktop;
+text/plain=userapp-alacritty -e nvim-ESD1R2.desktop;userapp-alacritty -e nvim-08J8F2.desktop;nvim.desktop;
+video/x-matroska=vlc.desktop;
+application/x-tar=userapp-tar -x-4DZ6R2.desktop;userapp-tar -xf-QQPBS2.desktop;
+text/html=librewolf.desktop;userapp-alacritty -e nvim-ESD1R2.desktop;firefox.desktop;
+application/x-zerosize=userapp-alacritty -e nvim-ESD1R2.desktop;
+image/x-dds=org.nomacs.ImageLounge.desktop;
+
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop;
+image/jpeg=org.nomacs.ImageLounge.desktop
+image/png=org.nomacs.ImageLounge.desktop
+x-scheme-handler/nxm=vortex-downloads-handler.desktop
+x-scheme-handler/nxm-protocol=vortex-downloads-handler.desktop
+application/x-compressed-tar=userapp-tar -xf-WSSGC2.desktop
+image/gif=org.nomacs.ImageLounge.desktop
+application/zip=userapp-unzip -x-SIIOL2.desktop
+application/vnd.rar=userapp-7z x-IVEX12.desktop
+application/x-7z-compressed=userapp-7z x-IVEX12.desktop
+application/x-shellscript=userapp-sh-IDHDS2.desktop
+image/webp=org.nomacs.ImageLounge.desktop
+text/plain=userapp-alacritty -e nvim-ESD1R2.desktop
+application/x-tar=userapp-tar -xf-QQPBS2.desktop
+application/x-zerosize=userapp-alacritty -e nvim-ESD1R2.desktop
+image/x-dds=org.nomacs.ImageLounge.desktop
