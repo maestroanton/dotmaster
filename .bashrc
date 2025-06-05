@@ -7,9 +7,8 @@
 
 # Default programs and directories
 EDITOR="nvim"
-FILE_MANAGER="ranger"
+FILE_MANAGER="thunar"
 export TERMINAL="alacritty"
-NOTES="/.notes/notes3"
 SU="sudo"
 
 # PS1 (pretty bash prompt) 
@@ -34,7 +33,6 @@ alias mk="mkdir -p"
 alias kr="sudo pacman-key --refresh-keys"
 
 # Shortcutting
-alias notes="${EDITOR} "${HOME}${NOTES}""
 alias src="cd ${LOCAL}/src/" # ${LOCAL} is set in .xinitrc, in case you're wondering
 alias bin="cd ${LOCAL}/bin/"
 

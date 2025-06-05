@@ -26,6 +26,10 @@ interval=1
 command=sb-battery
 interval=10
 
+[sound]
+command=sb-volume
+interval=100
+
 [internet]
 command=sb-internet
 interval=5

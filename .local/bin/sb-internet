@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if grep -xq 'up' /sys/class/net/w*/operstate 2>/dev/null ; then
 	wifiicon="$(awk '/^\s*w/ { print "🌐", int($3 * 100 / 70) "% " }' /proc/net/wireless)"
@@ -11,6 +11,6 @@ printf "%s%s%s\n" "$wifiicon" "$(sed "s/down/🔌 /;s/up/🌎 /" /sys/class/net/
 
 
 case $BLOCK_BUTTON in
-	1) "$TERMINAL" -e nmtui ;;
-	3) "$TERMINAL" -e nmtui ;;
+	1) alacritty -e nmtui ;; 
+	3) alacritty -e nmtui ;;
 esac
